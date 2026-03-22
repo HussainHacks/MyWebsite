@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground: #ffffff;
+  --background: #050505;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar for Cyber Aesthetic */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00f3ff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bc13fe;
+}
+
+.text-glow-blue {
+  text-shadow: 0 0 10px #00f3ff, 0 0 20px #00f3ff;
+}
+
+.text-glow-purple {
+  text-shadow: 0 0 10px #bc13fe, 0 0 20px #bc13fe;
+}

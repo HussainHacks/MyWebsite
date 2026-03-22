@@ -1,0 +1,65 @@
+Syed Ahmed Hussain  
+Syedhuss@iastate.edu  ⧫ 321-317-8728  ⧫ Ames, IA  
+OBJECTIVE  
+  Seekin g an on -campus job   
+EDUCATION  
+Iowa State University , College of Engineering  Ames, Iowa                     Expected December  2027 
+Bachelor of Science in C omputer Engineeri ng            
+EMPLOYMENT  
+Iowa State University Foundation , Iowa                                                           Feb 2021 – Jan 2022 
+• Promoted from student fundraiser in recognition of strong performance and leadership potential.  
+• Trained new student fundraisers on sales techniques and donor engagement strategies.  
+• Led teams during shifts, providing real -time guidance to maintain productivity and morale.  
+• Served as a liaison between student employees and management.  
+ 
+Iowa State University Foundation, Iowa                                     Feb 2020 – Jan 2021  
+Student Fundraiser  
+• Engaged alumni and donors through outbound calls to communicate the impact of giving and driving  
+financial support for Iowa State programs and students.    
+• Applied selling techniques to identify  donor interests, overcome objections, and close contributions.   
+• Consistently met or exceeded fundraising targets.   
+• Built rapport quickly with a diverse range of prospects, strengthening long -term donor relationships and 
+brand trust.   
+• Maintained accurate donor records and interaction notes in Salesforce  to support future campaigns . 
+PROJECTS  
+Automated Forex Trading Agent   
+Self-directed  project                                                           Feb 2026 – March 2026  
+• Built python -scripts  that pulls real -time and historical price char ts from Vantage APIs  for free.  
+• Created a product requirements document (PRD) that breaks the trading bot into a step -by-step 
+execution flow -> signal intake -> validation -> risk/position sizing -> order placement -> trade 
+management ( SL/TP) -> exit  -> logging/analytics.  
+•  Used NotebookLM to extract key trading concepts and rules from Yo tube educational videos, then 
+organized the insights into structured notes to help train and refine a trading model.  
+ 
+Automated Sports Arbitrage System  
+Self-directed project             Feb 2026  - March 2026  
+• Built Python scripts to collect and normalize real -time sports odds data from multiple APIs for cross -
+platform comparison.   
+• Developed an arbitrage engine that identified pricing discrepancies, calculated profit margins, and 
+filtered low -value opportunities.  
+• Structured the workflow into data intake, validation, opportunity detection, and logging to support fast 
+analysis and iteration.  
+ 
+ 
+ 
+Cybersecurity  A.I. Agent  
+Self-directed project             March 2026  - present  
+• Built an AI -assisted cybersecurity agent to support recon, tool orchestration, and structured vulnerability 
+triage in bug bounty workflows.  
+• Integrated shell -based automation and web tooling to speed up repeatable security tasks such as surface 
+mapping, data collection, and validation.  
+• Designed a prompt -driven reasoning framework that filtered weak findings, reduced repeated paths, and 
+enforced step -by-step hypothesis testing . 
+ENTREPRENEURIAL VENTURES                                                                                                               
+   Founder - OutsourceAE                                                                                                  Oct 202 3 – June 2024  
+• Founded and operated  a UAE -based outsourcing startup connecting clients with skilled remote workers 
+in Pakistan and India to improve productivity and reduce operational costs.   
+• Designed onboarding and training workflows to ensure consistent quality, communication standards and 
+delivery timelines.  
+• Primary account manager, maintaining relationships, upselling services, and securing repeat business.  
+ 
+   Founder - EvolvAISolutions                                                                                        Jan 2025 – June 2025  
+• Co-founded a UK based AI automation startup focused on building workflow solutions using n8n for 
+workflow/business process automation/optimization.  
+• Consulted with clients to identify  inefficiencies and design AI -driven automated workflows tailored to 
+their operations.
