@@ -1,7 +1,7 @@
 import PageTransition from "@/components/ui/PageTransition";
 import Scene from "@/components/canvas/Scene";
 import Grid from "@/components/canvas/Grid";
-import { Mail, Github, Linkedin } from "lucide-react";
+import { Mail, Github } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -31,16 +31,6 @@ export default function Contact() {
             >
               <Github className="w-6 h-6 text-[#bc13fe] group-hover:scale-110 transition-transform" />
               <span className="ml-4 text-gray-300 font-medium">github.com/syedhuss</span>
-            </a>
-
-            <a 
-              href="https://linkedin.com/in/syedahmedhussain"
-              target="_blank"
-              rel="noreferrer"
-              className="group flex items-center p-4 rounded-xl bg-white/5 hover:bg-[#00f3ff]/10 border border-transparent hover:border-[#00f3ff]/50 transition-all duration-300"
-            >
-              <Linkedin className="w-6 h-6 text-[#00f3ff] group-hover:scale-110 transition-transform" />
-              <span className="ml-4 text-gray-300 font-medium">linkedin.com/in/syedahmedhussain</span>
             </a>
           </div>
         </div>
