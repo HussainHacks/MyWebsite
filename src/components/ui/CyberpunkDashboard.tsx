@@ -42,12 +42,15 @@ const CyberpunkDashboard = ({ title = 'SYSTEM STATUS', data = [] }: DashboardPro
 
       {/* Data Display */}
       <div className="space-y-2">
-        {displayedData.map((item, idx) => (
-          <div key={idx} className="text-xs matrix-text text-[#0f0] crt-monitor">
-            <span className="text-[#ff0033]">{'>'}</span> {item.label}:{' '}
-            <span className="text-[#00ffff]">{item.value}</span>
-          </div>
-        ))}
+        {displayedData.map((item, idx) => {
+          if (!item) return null;
+          return (
+            <div key={idx} className="text-xs matrix-text text-[#0f0] crt-monitor">
+              <span className="text-[#ff0033]">{'>'}</span> {item.label}:{' '}
+              <span className="text-[#00ffff]">{item.value}</span>
+            </div>
+          );
+        })}
         {!scanComplete && displayedData.length > 0 && (
           <div className="text-xs matrix-text text-[#0f0] animate-pulse">
             <span className="text-[#ff0033]">{'>'}</span> SCANNING...
