@@ -85,7 +85,7 @@ function MinimalHome() {
         
         <h2 className="text-2xl md:text-3xl font-medium text-gray-600 max-w-3xl leading-snug">
           {portfolioData.person.role} <br className="hidden md:block" />
-          <span className="text-gray-400">AI / ML / Software / Systems</span>
+          <span className="text-gray-400">AI / ML / Software</span>
         </h2>
         
         <p className="text-lg md:text-xl text-gray-500 max-w-2xl leading-relaxed mt-8">
