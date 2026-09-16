@@ -159,19 +159,6 @@ export const portfolioData = {
         "distributed operations",
         "automation opportunities"
       ]
-    },
-    {
-      id: "project-7",
-      title: "Personal Portfolio Website",
-      status: "COMPLETED PROJECT",
-      description: "Designed, developed, and deployed a personal portfolio website with a custom interactive dual-mode visual system.",
-      technologies: ["Next.js", "React", "Netlify", "Git/GitHub", "Tailwind CSS"],
-      highlights: [
-        "dual-mode architecture (Cyberpunk/Minimal)",
-        "React Context state management",
-        "responsive design",
-        "smooth animations"
-      ]
     }
   ]
 };
