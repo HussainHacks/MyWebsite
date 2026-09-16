@@ -9,8 +9,14 @@ export default function Grid() {
 
   useFrame((state, delta) => {
     if (gridRef.current) {
-      // Small scrolling effect on Z axis for the illusion of moving forward
-      gridRef.current.position.z = (state.clock.elapsedTime * 0.5) % 1;
+      let shouldMove = true;
+      if (typeof window !== 'undefined') {
+        shouldMove = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      }
+      if (shouldMove) {
+        // Small scrolling effect on Z axis for the illusion of moving forward
+        gridRef.current.position.z = (state.clock.elapsedTime * 0.5) % 1;
+      }
     }
   });
 

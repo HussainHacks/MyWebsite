@@ -9,8 +9,14 @@ export default function Earth() {
 
   useFrame((state, delta) => {
     if (meshRef.current) {
-      meshRef.current.rotation.y += delta * 0.1;
-      meshRef.current.rotation.x += delta * 0.05;
+      let shouldRotate = true;
+      if (typeof window !== 'undefined') {
+        shouldRotate = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      }
+      if (shouldRotate) {
+        meshRef.current.rotation.y += delta * 0.1;
+        meshRef.current.rotation.x += delta * 0.05;
+      }
     }
   });
 

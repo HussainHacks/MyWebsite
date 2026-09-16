@@ -10,8 +10,13 @@ export default function Particles({ count = 2000 }) {
   const dummy = useMemo(() => new Object3D(), []);
 
   const particles = useMemo(() => {
+    let actualCount = count;
+    if (typeof window !== 'undefined') {
+      const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (prefersReducedMotion) actualCount = 0;
+    }
     const temp = [];
-    for (let i = 0; i < count; i++) {
+    for (let i = 0; i < actualCount; i++) {
       const t = Math.random() * 100;
       const factor = 20 + Math.random() * 100;
       const speed = 0.01 + Math.random() / 200;

@@ -6,6 +6,10 @@ const MatrixBackground = () => {
   const [chars, setChars] = useState<Array<{ id: number; left: string; delay: number; duration: number }>>([]);
 
   useEffect(() => {
+    // Check for reduced motion
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReducedMotion) return;
+
     const matrixChars = 'ｦｧｨｩｪｫｬｭｮｯﾀﾁﾂﾃﾄﾅﾆﾇﾈﾊﾋﾌﾍﾎﾏﾐﾑﾒﾓﾔﾕﾗﾘﾘﾗﾕﾔﾓﾒﾑﾐﾏﾎﾍﾌﾋﾏﾀﾈﾇﾆﾅﾄﾃﾂﾁﾀﾯﾮﾭﾬﾫﾪﾩﾨﾧﾦ0123456789[]{}()<>_+-=@#$%^&*!?;:,.';
     
     const newChars = Array.from({ length: 30 }, (_, i) => ({
