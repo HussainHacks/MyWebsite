@@ -2,7 +2,7 @@ export const portfolioData = {
   person: {
     name: "Syed Ahmed Hussain",
     role: "Computer Engineering Student",
-    bio: "Computer Engineering student at Iowa State University with hands-on experience in hardware design, software engineering, and AI/ML research. Experienced in developing RISC-V processors in VHDL, building full-stack applications, deploying containerized systems, and developing computer vision workflows for engineering research. Interested in building practical technology that connects hardware, software, and AI to solve real-world problems.",
+    bio: "Computer Engineering student at Iowa State University with hands on experience in hardware design, software engineering, and AI/ML research. Experienced in developing RISC-V processors in VHDL, building fullstack applications, deploying containerized systems, and developing computer vision workflows for engineering research. Interested in building practical technology that connects hardware, software, and AI to solve real world problems.",
     shortBio: "Computer Engineering student at Iowa State University working across hardware design, software engineering, AI/ML research, and computer vision.",
     email: "Syedhuss@iastate.edu",
     phone: "+1 321-317-8728"
