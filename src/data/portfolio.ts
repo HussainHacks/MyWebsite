@@ -123,7 +123,7 @@ export const portfolioData = {
     {
       id: "project-4",
       title: "Cyfeed",
-      status: "COMPLETED PROJECT",
+      status: "ONGOING PROJECT",
       description: "A campus-focused social and event platform designed for Iowa State students.",
       technologies: ["Java", "Spring", "REST APIs", "Git", "Full-Stack Development"],
       highlights: [
